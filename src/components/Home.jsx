@@ -1,9 +1,10 @@
 import React from 'react';
 import './Home.css'
-import abstract3 from '../assets/abstract3.webp';
-import abstract8 from '../assets/abstract8.webp';
-import abstract12 from '../assets/abstract12.webp';
+
+import abstract20 from '../assets/abstract20.webp';
+import abstract4 from '../assets/abstract4.webp';
 import lightning from '../assets/lightning.webp';
+import abstract3 from '../assets/abstract3.webp';
 
 
 const Home = () => {
@@ -16,8 +17,8 @@ const Home = () => {
             </div>
             <div className="home-right">
                 <div className="pic-row">
-                    <img src={abstract12} alt=""/>
-                    <img src={abstract8} alt=""/>
+                    <img src={abstract20} alt=""/>
+                    <img src={abstract4} alt=""/>
                 </div>
                 <div className="pic-row">
                     <img src={lightning} alt=""/>

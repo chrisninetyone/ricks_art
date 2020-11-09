@@ -20,12 +20,11 @@
     justify-content: center;
 }
 
-img {
+.pic-row img {
     background-size: cover;
-    /* width: 30%; */
     margin: 3%;
     height: 40vh;
-    width: 45%
+    width: 40%
 }
 
 .title {
@@ -46,13 +45,12 @@ img {
         flex-direction: column;
         justify-content: center;
     }
-    img {
-    background-size: cover;
-    margin: 10px;
-    /* height: 40vh; */
-    height: 150px;
-    width: 150px;
-}
+    .pic-row img {
+        background-size: cover;
+        margin: 2%;
+        height: 150px;
+        width: 150px;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -65,4 +63,6 @@ img {
 /* @media only screen and (min-width: 992px) {...} */
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-/* @media only screen and (min-width: 1200px) {...} */
+/* @media only screen and (min-width: 1200px) {
+
+} */

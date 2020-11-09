@@ -6,6 +6,14 @@
     float: right,
 }
 
+.logo img {
+    height: 65px;
+    position:absolute;
+    left:0;
+    top:0;
+    margin-left: 0.5em;
+}
+
 .navbar-ul {
     display: flex;
     list-style: none;
@@ -21,5 +29,5 @@
 
 .navbar-link:hover {
     text-decoration: underline;
-    color: maroon
+    color: maroon;
 }
